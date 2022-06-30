@@ -1,0 +1,24 @@
+{
+  "name": "myportflolio",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build",
+    "heroku-postbuild": "parcel build src/index.html"
+  },
+  "author": "Bamba Ba",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "parcel": "^2.6.2",
+    "popper.js": "^1.16.1",
+    "prettier": "^2.7.1",
+    "vanilla-tilt": "^1.7.2",
+    "@parcel/transformer-sass": "^2.6.2"
+  }
+
+}
